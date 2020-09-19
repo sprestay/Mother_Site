@@ -1,0 +1,109 @@
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background: linear-gradient(to bottom, rgb(150, 236, 221), rgb(59, 144, 187));
+    margin:0px auto;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: orange ;
+    color:floralwhite;
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:#0f0f0f;
+}
+
+.navbar-dark {
+    background: linear-gradient(45deg, #22AB93, #19668D); 
+}
+
+.page-enter {
+    opacity: 0.01;
+    transform: translateX(-100%);
+}
+
+.page-enter-active {
+    opacity: 1;
+    transform: translateX(0%);
+    transition: all 300ms ease-in;
+}
+
+.page-exit {
+    opacity: 1;
+    transform: translateX(0%);
+}
+
+.page-exit-active {
+    opacity: 0.01;
+    transform: translateX(100%);
+    transition: all 300ms ease-out;
+}
+
+.modal_img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1050;
+    opacity: 0;
+    pointer-events: none; 
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.modal:target {
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+ /* Styles applied to an `img` element child, if needed to ensure it covers the tile. */
+.imgFullHeight {
+    height: 100%;
+    transform: translateX(-50%);
+    position: relative;
+    left: 50%;
+}
+
+  /* Styles applied to an `img` element child, if needed to ensure it covers the tile. */
+.imgFullWidth {
+    width: 100%;
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.contactUs {
+    background: radial-gradient(#22AB93, rgba(255,255,255, 0.4));
+    border-radius: 20px;
+    color: darkblue;
+    font-weight: 600;
+
+}
+
+.link_on_footer {
+    color: darkblue;
+}

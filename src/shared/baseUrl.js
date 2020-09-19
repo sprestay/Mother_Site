@@ -1,0 +1,1 @@
+export const image_src = "/assets/images/";
